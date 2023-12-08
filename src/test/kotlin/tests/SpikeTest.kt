@@ -14,4 +14,3 @@ class SpikeTest : BaseSimulation() {
         ).protocols(httpProtocol)
     }
 }
-

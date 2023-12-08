@@ -4,7 +4,7 @@ import io.gatling.javaapi.core.CoreDsl.*
 
 class CapacityTest : BaseSimulation() {
 
-private val computerSearch = scenario("ComputerSearch").exec(search(ids))
+    private val computerSearch = scenario("ComputerSearch").exec(search(ids))
 
     init {
         setUp(
@@ -12,4 +12,3 @@ private val computerSearch = scenario("ComputerSearch").exec(search(ids))
         ).protocols(httpProtocol)
     }
 }
-

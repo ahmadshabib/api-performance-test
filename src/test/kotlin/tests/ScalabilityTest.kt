@@ -14,4 +14,3 @@ class ScalabilityTest : BaseSimulation() {
         ).protocols(httpProtocol)
     }
 }
-

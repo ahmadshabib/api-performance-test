@@ -12,4 +12,3 @@ class LoadTest : BaseSimulation() {
         ).protocols(httpProtocol)
     }
 }
-

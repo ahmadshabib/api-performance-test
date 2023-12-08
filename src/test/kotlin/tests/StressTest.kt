@@ -14,4 +14,3 @@ class StressTest : BaseSimulation() {
         ).protocols(httpProtocol)
     }
 }
-

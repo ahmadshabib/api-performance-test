@@ -12,4 +12,3 @@ class SmokeTest : BaseSimulation() {
         ).protocols(httpProtocol)
     }
 }
-

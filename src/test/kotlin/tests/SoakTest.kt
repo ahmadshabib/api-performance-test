@@ -8,8 +8,7 @@ class SoakTest : BaseSimulation() {
 
     init {
         setUp(
-            computerSearch.injectOpen(rampUsers(100000).during( 28800)),
+            computerSearch.injectOpen(rampUsers(100000).during(28800)),
         ).protocols(httpProtocol)
     }
 }
-
